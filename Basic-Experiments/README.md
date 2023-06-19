@@ -2,7 +2,7 @@
 * cifar10-classification: A notebook for classification on the cifar10 dataset.
 * distpruning-cifar10-vgg11: A notebook implementing TVSPrune model-pruning approach for the cifar10 dataset and vgg11 model. 
 Refer: TVSPrune - Pruning Non-discriminative filters via Total Variation separability of intermediate representations without fine tuning
-* model-pruning: A notebook for carrying out basic experiments on model pruning using in-built pruning utilities available in PyTorch.
+* model-pruning: A notebook for carrying out basic experiments on model pruning using built-in pruning utilities available in PyTorch.
 
 ## Requirements:
 * torch
