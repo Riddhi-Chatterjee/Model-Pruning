@@ -22,4 +22,5 @@ Refer: https://pytorch.org/tutorials/intermediate/pruning_tutorial.html
 
 ## Note:
 For executing the model-pruning notebook, download the cifar_net.pth model as well, and set the PATH variable in the notebook to the appropriate path of the cifar_net.pth file.
+
 cifar_net.pth is a model trained using cuda enabled. If your device doesn't support cuda, execute the cifar10-classification notebook to obtain your own pretrained model for pruning.
