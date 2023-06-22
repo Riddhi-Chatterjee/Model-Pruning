@@ -34,7 +34,7 @@ The experiments have been performed on a machine with the following specificatio
 * Use requirements.txt file to configure your conda environment according to the one that has been originally used.
 * Execute the cifar10-classification notebook to obtain a CNN model trained for classification on the cifar10 dataset. Such a model has already been provided (cifar_net.pth).
 * Execute the model-pruning notebook to try out all the built-in pruning techniques provided by PyTorch.
-** Windows specific steps:**
+*** Windows specific steps: ***
 * conda create -n environment_name
 * conda activate environment_name
 * conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
