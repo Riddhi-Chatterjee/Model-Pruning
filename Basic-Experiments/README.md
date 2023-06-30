@@ -3,9 +3,9 @@ Built-in pruning functionalities offered by PyTorch have been tried out and comp
 Refer: https://pytorch.org/tutorials/intermediate/pruning_tutorial.html
 
 ## A simple example -- for demo purposes
-A simple experiment has been performed where PyTorch's L1 Structured Pruning utility has been used. We chose a CNN model trained for classification on the cifar10 dataset (cifar_net.pth) with an original accuracy of 78%. 
+A simple experiment has been performed where PyTorch's L1 Structured Pruning utility has been used. We chose a CNN model trained for classification on the cifar10 dataset (cifar_net.pth) with an original test accuracy of 79.67%. 
 
-After pruning 40% of the channels/filters (having least L1 norm) of the 1st convolutional layer, we get rid of 2862 (0.019%) weight parameters, and the accuracy drops to 76%.
+After pruning 40% of the channels/filters (having least L1 norm) of the 1st convolutional layer, we get rid of 2754 (0.0179%) weight parameters, and the accuracy drops to 75%.
 
 We observe that after pruning, weights of some of the filters have been set to zero (i.e. pruned). We also obtain a weight mask after pruning. Internally, this weight mask is multiplied element-wise with the original weight parameter to obtain the final (pruned) weight parameter of the module
 
