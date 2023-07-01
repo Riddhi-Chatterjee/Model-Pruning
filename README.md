@@ -1,0 +1,1 @@
+![](documentation/Model-Pruning.pdf)
