@@ -1,0 +1,2 @@
+fpgmdata/** filter=lfs diff=lfs merge=lfs -text
+pretrainedmodel/** filter=lfs diff=lfs merge=lfs -text
