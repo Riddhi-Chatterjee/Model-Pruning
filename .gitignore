@@ -162,3 +162,5 @@ cython_debug/
 # My files and folders
 fpgm-data
 resnet-fpgm-data
+resnet-imagenet-fpgm
+alexnet-flowers102-fpgm
