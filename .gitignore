@@ -160,9 +160,4 @@ cython_debug/
 #.idea/
 
 # My files and folders
-fpgm-data
-resnet-fpgm-data
-resnet-imagenet-fpgm
-alexnet-flowers102-fpgm
-filter-pruning-geometric-median
-TVSPrune
+Store
