@@ -1,2 +1,1 @@
-Basic-Experiments/** filter=lfs diff=lfs merge=lfs -text
 FPGM-Experiments/** filter=lfs diff=lfs merge=lfs -text
