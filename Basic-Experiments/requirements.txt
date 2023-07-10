@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2642fd3ea55511b59a6a4b529f38a167d7072057a74d6b95ee2a69e8709a12b3
-size 75
+torch
+torchvision
+torchaudio
+scipy
+numpy
+scikit-learn
+matplotlib
+jupyterlab
