@@ -1,1 +1,2 @@
-FPGM-Experiments/** -- !(FPGM-Experiments/VGG16/README.md) filter=lfs diff=lfs merge=lfs -text
+Basic-Experiments/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/** filter=lfs diff=lfs merge=lfs -text
