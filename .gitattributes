@@ -1,1 +1,6 @@
-FPGM-Experiments/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/VGG16/data/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/VGG16/fpgmdata/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/VGG16/pretrainedmodel/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/ResNet/Cifar100/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/ResNet/ImageNet/** filter=lfs diff=lfs merge=lfs -text
+FPGM-Experiments/AlexNet/alexnet-flowers102-fpgm/** filter=lfs diff=lfs merge=lfs -text
